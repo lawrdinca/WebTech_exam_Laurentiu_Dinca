@@ -14,9 +14,9 @@ const BooksList = ({books}) => {
                                     <th>SHELF</th>
                                 </tr>
                                 <tr>
-                                    <td>{book.literary_genre}</td>
-                                    <td>{book.url}</td>
-                                    <td>{book.vs_id}</td>
+                                    <td>{book.Genre}</td>
+                                    <td>{book.Url}</td>
+                                    <td>{book.ShelfID}</td>
                                 </tr>
                             </table>
                         </Link>

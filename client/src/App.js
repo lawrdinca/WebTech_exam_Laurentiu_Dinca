@@ -13,12 +13,8 @@ function App() {
         <div className="content"></div>
 
         <Routes>
-          <Route exact path='/'>
-            <Home />
-          </Route>
-          <Route path='/newBook'>
-            <NewBook />
-          </Route>
+          <Route exact path='/' element = {<Home/>}/>
+          <Route path='/newBook' element = {<NewBook/>}/>
           <Route path='/newShelf'>
             <NewShelf />
           </Route>
